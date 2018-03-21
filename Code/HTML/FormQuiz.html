@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input</title>
+    </head>
+    <body>
+        <p>Register</p>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input name="first-name" id="first-name" type="text" placeholder="First Name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input name="last-name" id="last-name" type="text" placeholder="Last Name" required>
+
+            <div>
+                <label for="gender-male">Male</label>
+                <input type="radio" id="male" value="Male">
+                <label for="gender-female">Female</label>
+                <input type="radio" id="female" value="female">
+                <label for="gender-other">Other</label>
+                <input type="radio" id="other" value="other">
+            </div>
+
+            <div>
+                <label for="Email">Email:</label>
+                <input name="Email" id="Email" type="Email" placeholder="mail@mail.com" required>
+
+                <label for="Password">Password</label>
+                <input name="Password" id="Password" type="Password" placeholder="Password" required pattern=".{5,10}"
+                title="5 to 10 characters">
+            </div>
+
+            <div>
+                <label for="">
+                    Birthday:
+                    <select name="day" id="DaySelect">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                    <select name="month" id="MonthSelect">
+                        <option>Month</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>March</option>
+                    </select>
+                    <select name="year" id="YearSelect">
+                        <option>Year</option>
+                        <option>1900</option>
+                        <option>2000</option>
+                        <option>3000</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div>
+                <label for="Checkbox">I agree to the terms and condition</label>
+                <input type="Checkbox">
+            </div>
+            <button>Go!</button>
+        </form>
+    </body>
+</html>

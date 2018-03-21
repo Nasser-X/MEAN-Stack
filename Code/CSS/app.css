@@ -1,0 +1,18 @@
+h1 {
+    color: #F40000;
+    border-color: purple;
+    border-width: 5px;
+    border-style: solid; 
+ }
+ li {
+     color: green;
+ }
+ h4 {
+     background-color: rgb(255, 80, 60);
+ }
+ body {
+    background-color: #123124;
+    background: url(https://inktart.files.wordpress.com/2012/10/black-abstract-hd-wallpaper-1080p.jpg?w=1200);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
